@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70vh 70vh 70vh 120vh 5vh;
+    grid-template-areas:  "header" "planesDisplay" "todas" "reserva" "pie";
+
+}
+
+
+header {
+    grid-area: header;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+}
+.mainTitle{
+    text-transform: uppercase;
+    margin: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4c1f14;
+}
+.headerPic {
+    height: 350px;
+    width: 1000px;
+    margin-top: 5px;
+    border: #4c1f14 solid 2px;
+}
+#planes {
+    text-align: center;
+}
+.planesDisplay {
+    grid-area: planesDisplay;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+.planesDisplay div {
+padding: 15px;
+}
+.planesDisplay div:hover {
+    border: 2px solid #4c1f14;
+    border-radius: 12%;
+}
+.todas {
+    grid-area: todas;
+    text-align: center;
+}
+
+.reserva {
+    grid-area: reserva;
+    margin: 50px;
+    padding: 10px;
+}
+
+.botonReservar {
+    display: flex;
+    justify-content: center;
+    margin: 7px 50px;
+    padding: 2px;
+    border: solid 2px white;
+    background-color: white;
+}
+
+.botonReservar:hover {
+    display: flex;
+
+    border: solid 2px #65292a;
+    color: #65292a;
+    background-color: white;
+}
+
+.campos {
+    margin: 7px;
+    border: none;
+    padding: 3px;
+    border-bottom: 2px solid #65292a;
+}
+.boton{
+    justify-content: center;
+    margin: 7px 5px;
+    padding: 2px;
+    border: solid 2px white;
+    background-color: white;
+}
+
+.boton:hover {
+    border: solid 2px #65292a;
+    color: #65292a;
+    background-color: white;
+}
+
+
+h2 {
+    color: #4c1f14;
+    width: 100%;
+}
+
+.table {
+    border: solid 1px #65292a;
+    border-left: none;
+    border-right: none;
+}
+.table-bordered > :not(caption) > * {
+    border-width: 4px 0;
+  }
+  .table > :not(caption) > * > * {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 2px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  }
+  #tablaReservas {
+    width: 50%;
+    display: flex block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    align-self: stretch;
+}
+  .pie {
+    grid-area: pie;
+}
+
+.planesPag {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30vh 70vh 20vh 20vh;
+    grid-template-areas: "headerP" "cartasP" "volver" "pieP";
+}
+.headerP {
+    grid-area: headerP;
+}
+.headerP h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: #65292a;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.cartasP {
+    grid-area: cartasP;
+}
+
+.volver {
+    grid-area: volver;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: solid 2px white;
+    background-color: white;
+}
+
+.pieP {
+    grid-area: pieP;
+}
+#plan {
+    display: flex;
+    justify-content: center;
+}
+
+#plan img {
+height: 100px;
+width: 100px;
+border: none;
+}
+
+#plan h5 {
+    padding: 5px;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    align-items: center;
+}

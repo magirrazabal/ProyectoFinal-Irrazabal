@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.css">
+
+  <link rel="shortcut icon" href="./imagenes/favicon-16x16.png" type="image/x-icon">
+  <link rel="icon" href="./imagenes/favicon-16x16.png" type="image/x-icon">
+  <title>Wellness | Gimnasio</title>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <script defer src="./js/gymapp.js"></script>
+
+  <script defer src="./bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class=mainTitle>Wellness Gym</h1>
+    <img class="headerPic" src="./imagenes/headerp.jpg" alt="imagen header">
+  </header>
+  <main>
+    <section id="planes">
+      <h2>Nuestros planes</h2>
+      <div id="cartas" class="loading">
+        <img src="./imagenes/loading.gif" height="200" width="250" alt="cargando">
+      </div>
+      <div id="cartas" class="planesDisplay">
+
+      </div>
+    </section>
+    <section id="">
+
+    </section>
+    <div class="todas">
+      <h2>Nuestras clases</h2>
+      <article class="container">
+        <table class="table">
+          <thead class="table-bordered">
+            <tr>
+              <th>Clase</th>
+              <th>Hora</th>
+              <th>Capacidad</th>
+              <th>Disponibilidad</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpo">
+
+          </tbody>
+        </table>
+      </article>
+      <section>
+        <button class="boton botonFiltrar">Ver por día</button>
+        <button class="boton botonTodas">Ver todas</button>
+        <div id="filtrar">
+          <div class="form-group">
+            <input type="text" placeholder="¿Qué día querés entrenar?" name="filtrar" id="filtar" class="campos" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="reserva">
+      <h2>Reservá tu clase</h2>
+      <form id="reservar">
+        <div class="form-group">
+          <input type="text" placeholder="Nombre" name="nombre" id="nombre" class="campos" />
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Número de socio" name="socio" maxlength="4" id="socio" class="campos" />
+        </div>
+        <input type="text" placeholder="Clase" name="clase" id="clase" class="campos" />
+        <button class="botonReservar">Reservar</button>
+      </form>
+      <article class="tablaReservas" id="tablaReservas">
+        <h2>Historial de reservas de clases</h2>
+        <table class="table">
+          <thead class="table-bordered">
+            <tr>
+              <th>Nombre</th>
+              <th>Clase</th>
+              <th>Socio</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpo-reserva">
+
+          </tbody>
+        </table>
+        <button class="boton botonHistorial">Cargar</button>
+      </article>
+
+    </div>
+
+
+
+    </div>
+
+  </main>
+  <footer class="pie d-flex justify-content-center">
+    <p>Wellnes Gym®</p>
+  </footer>
+
+</body>
+
+</html>

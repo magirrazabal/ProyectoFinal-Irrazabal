@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lidia Caparros",
+    "socio": 6545,
+    "clase": "Boxeo"
+  },
+  {
+    "id": 2,
+    "nombre": "Cesar Abad",
+    "socio": 6546,
+    "clase": "Yoga"
+  },
+  {
+    "id": 3,
+    "nombre": "Luis Cañadas",
+    "socio": 6547,
+    "clase": "Functional"
+  },
+  {
+    "id": 4,
+    "nombre": "Maria Marrero",
+    "socio": 6548,
+    "clase": "Spinning"
+  },
+  {
+    "id": 5,
+    "nombre": "Carlos Peiro",
+    "socio": 6549,
+    "clase": "Yoga"
+  },
+  {
+    "id": 6,
+    "nombre": "Miguel Perdomo",
+    "socio": 6550,
+    "clase": "Spinning"
+  },
+  {
+    "id": 7,
+    "nombre": "Lara Soriano",
+    "socio": 6545,
+    "clase": "Spinning"
+  },
+  {
+    "id": 8,
+    "nombre": "Guillermo Ibarra",
+    "socio": 6551,
+    "clase": "Spinning"
+  },
+  {
+    "id": 9,
+    "nombre": "Juana Moral",
+    "socio": 6552,
+    "clase": "Yoga"
+  },
+  {
+    "id": 10,
+    "nombre": "Mariano Manzanares",
+    "socio": 6553,
+    "clase": "Yoga"
+  }
+]

@@ -1,0 +1,47 @@
+[
+   {
+      "id": 1,
+      "poster": "/imagenes/premium.png",
+      "titulo": "Premium",
+      "horario": "Todo el día",
+      "reservas": "36hs antes",
+      "precio": "$6000/mes",
+      "minimo": "1 mes"
+   },
+   {
+      "id": 2,
+      "poster": "/imagenes/plus.png",
+      "titulo": "Plus",
+      "horario": "Todo el día",
+      "reservas": "24hs antes",
+      "precio": "$5000/mes",
+      "minimo": "1 mes"
+   },
+   {
+      "id": 3,
+      "poster": "/imagenes/move.png",
+      "titulo": "Move",
+      "horario": "6 a 11 - 18 a 22",
+      "reservas": "24hs antes",
+      "precio": "$4000/mes",
+      "minimo": "1 mes"
+   },
+   {
+      "id": 4,
+      "poster": "/imagenes/basic.png",
+      "titulo": "Basic",
+      "horario": "Todo el día",
+      "reservas": "No incluye reservas",
+      "precio": "$4000/mes",
+      "minimo": "1 mes"
+   },
+   {
+      "id": 5,
+      "poster": "/imagenes/ocasional.png",
+      "titulo": "Ocasional",
+      "horario": "Todo el día - Máximo 2 veces/semana",
+      "reservas": "No incluye reservas",
+      "precio": "$2000/mes",
+      "minimo": "3 meses"
+   }
+]
